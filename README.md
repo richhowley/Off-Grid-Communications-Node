@@ -15,8 +15,20 @@ In my case the list looks like this:
 /dev/cu.Bluetooth-Incoming-Port
 /dev/cu.PharosBTGPSII-DevB
 /dev/cu.usbmodemFA241
-/dev/cu.usbmodemFA231
 ```
 
+I know that the last one in the list is my Uno, so I pass it index.js:
 
+'''
+node index.js /dev/cu.usbmodemFA241
+'''
+
+I open a broser to http://localhost:3000/ and see:
+
+'''
+listening on *:3000
+port open. Data rate: 9600
+Starting Arduino
+a user connected
+'''
 
