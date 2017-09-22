@@ -17,7 +17,7 @@ In my case the list looks like this:
 /dev/cu.usbmodemFA241
 ```
 
-The last one in the list is my Uno, so I pass it index.js:
+The last one in the list is my Uno, so I pass it to index.js:
 
 ```
 node index.js /dev/cu.usbmodemFA241
