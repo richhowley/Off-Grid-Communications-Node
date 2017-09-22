@@ -4,6 +4,8 @@ This repository holds the Node.js part of an off-grid comminication system that 
 
 Node.js reads and writes messages to and from the serial port using the node-serialport module and communicates with a browser via socket.io events.
 
+The file index.html is almost exactly copied from the socket.io Getting Started example, index.js is also based off that project but adds serial port access.  If you're intersted in building this off-grid system and have not used socket.io the best place to begin is to build the Gettin Started chat program on the web site https://socket.io/.
+
 Run listports.js to get a list of all serial ports:
 
 ```
@@ -23,7 +25,7 @@ The last one in the list is my Uno, so I pass it to index.js:
 node index.js /dev/cu.usbmodemFA241
 ```
 
-I open a broser to loclahost port 3000 and see:
+I open a browser to loclahost port 3000 and see:
 ```
 listening on *:3000
 port open. Data rate: 9600
