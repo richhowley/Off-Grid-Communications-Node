@@ -1,6 +1,6 @@
 # Off Grid Communications Node
 
-This repository holds the Node.js part of an off-grid comminication system that uses Arduinos with HC-12 transceiver modules.
+This repository holds the Node.js part of an off-grid comminication system that uses Arduinos with HC-12 transceiver modules and is only necessary if a browser interface is desired.
 
 Node.js reads and writes messages to and from the serial port using the node-serialport module and communicates with a browser via socket.io events.
 
