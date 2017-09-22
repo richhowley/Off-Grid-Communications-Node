@@ -19,16 +19,15 @@ In my case the list looks like this:
 
 I know that the last one in the list is my Uno, so I pass it index.js:
 
-'''
+```
 node index.js /dev/cu.usbmodemFA241
-'''
+```
 
 I open a broser to loclahost port 3000 and see:
-
-'''
+```
 listening on *:3000
 port open. Data rate: 9600
 Starting Arduino
 a user connected
-'''
+```
 
