@@ -6,15 +6,17 @@ Node reads and writes messages to and from the serial port using the node-serial
 
 Run listports.js to get a list of all serial ports:
 
+```
 $ node listports.js
-
+```
 In my case the list looks like this:
 
+```
 /dev/cu.Bluetooth-Incoming-Port
 /dev/cu.PharosBTGPSII-DevB
 /dev/cu.usbmodemFA241
 /dev/cu.usbmodemFA231
-
+```
 
 
 
